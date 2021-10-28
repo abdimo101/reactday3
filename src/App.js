@@ -1,4 +1,5 @@
 
+import AllPerson from './AllPerson';
 import './App.css';
 import ContactForm from './ContactForm';
 import ReservationForm from './FormDemoMultiple';
@@ -10,6 +11,7 @@ function App() {
       <ContactForm/>
       <h2>Handling inputs</h2>
       <ReservationForm/>
+      <AllPerson/>
     </div>
   );
 }
